@@ -1,6 +1,9 @@
 import React from 'react'
 import {ReactComponent as RareEatLogo} from "../assets/rare-eat-logo.svg"
 import {ReactComponent as SearchLogo} from "../assets/search.svg"
+import {ReactComponent as FlagIcon} from "../assets/flag.svg"
+import {ReactComponent as CartIcon} from "../assets/cart.svg"
+import {ReactComponent as Avatar} from "../assets/avatar.svg"
 
 
 const Navigation = () => {
@@ -18,11 +21,15 @@ const Navigation = () => {
       </div>
       <div className="input-field">
       <span className="search-logo"><SearchLogo/></span>
-        <input className="input" type="text" placeholder="Search" />
+        <input style={{backgroundColor:"#F9F9F9"}} className="input" type="text" placeholder="Search" />
         {/* <img src="/images/search-icon.png" alt="Search Icon" /> */}
         
       </div>
-      <div><RareEatLogo/> </div>
+      <div className='avatar-links'>
+        <FlagIcon/>
+        <CartIcon/>
+        <Avatar/>
+      </div>
     </div>
   )
 }

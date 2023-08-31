@@ -38,6 +38,15 @@ body{
     margin-left: -80px ;
 }
 
+.avatar-links {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content:space-around;
+    /* align-items: center; */
+    margin-left: -80px ;
+}
+
 .input-field{
     border:solid 1px #D0D0D0;
     border-radius: 15px;
@@ -206,7 +215,7 @@ form button{
     box-sizing: border-box;
     justify-content: space-evenly;
     align-items: center;
-    margin-left:-150px;
+    margin-left:-100px;
     margin-top: 10px;
     padding: 0px;
     gap: 5%;
@@ -218,8 +227,13 @@ ul {
 
 ul li{
     color:#F9F9F9;
+    margin-bottom: 8px;
 }
 
 li:first-of-type{
     color:#F36F00;
-  }
+}
+
+.hide{
+    visibility: hidden;
+}
