@@ -6,8 +6,12 @@ const Contact = () => {
     <h1>
       Get in touch
     </h1>
+    <p style={{fontSize:"16px", color:"#626262", fontWeight:"500"}}>Your Questions and Feedback Matter to Us - Reach Out, Let's Connect, 
+      and Explore Together to Ensure Your Rare Eat Fresh Experience Is 
+      Exceptional and Delightful.
+    </p>
     <form>
-      <div>
+      <div className="name-container">
       <input type="text" name="firstname" placeholder='First Name'/>
       <input type="text" name="lastname" placeholder='Last Name'/>
       </div>
